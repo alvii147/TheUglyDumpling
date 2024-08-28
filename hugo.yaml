@@ -1,0 +1,26 @@
+baseURL: https://TheUglyDumpling.github.io/
+languageCode: en-us
+title: The Ugly Dumpling
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Blog
+    pageRef: /blogs
+    weight: 20
+
+params:
+  profileMode:
+    enabled: true
+    title: The Ugly Dumpling
+    imageUrl: /images/logo.svg
